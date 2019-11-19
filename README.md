@@ -20,7 +20,7 @@ https://helm.sh/docs/intro/install/
 
    RUN ``` bash acr_create [Resource-Group-Name] [ACR-Name]```
 
-To create an Azure Container Registry, you first need a resource group. An Azure resource group is a logical container into which Azure resources are deployed and managed.
+    To create an Azure Container Registry, you first need a resource group. An Azure resource group is a logical container         into which Azure resources are deployed and managed.
 
 
 3. Create AKS cluster
