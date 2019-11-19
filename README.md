@@ -3,10 +3,10 @@
 * docker
 * helm
 
-To install docker please check below link:-
+To install docker please check this link:-
 https://docs.docker.com/docker-for-mac/
 
-To install helm follow below steps:-
+To install helm follow this link:-
 https://helm.sh/docs/intro/install/
 
 
@@ -31,6 +31,6 @@ https://helm.sh/docs/intro/install/
 
    RUN ``` bash docker_push_acr [FILE_PATH] [RESOURCE_GROUP] [ACR_NAME] [DOCKER_IMAGE_NAME] [TAG]```
 
-in our case above mentioned values should be :-
+   in our case above mentioned values should be :-
 
-```FILE_PATH=nodejs-app/, DOCKER_IMAGE_NAME=nodejs-app, TAG=v1```
+   ```FILE_PATH=nodejs-app/, DOCKER_IMAGE_NAME=nodejs-app, TAG=v1```
