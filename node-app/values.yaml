@@ -1,0 +1,14 @@
+image:
+  image_name: ""
+  image_tag: ""
+
+replicas: 1
+default_pool_name: "defualt_pool"
+# make ingress_enabled true if you have domain and running ingress controller
+ingress:
+  ingress_enabled: "False"
+  ingress_class: ""
+  domain_name: ""
+
+environment:
+  TEST: ok
