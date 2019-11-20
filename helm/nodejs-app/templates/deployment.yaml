@@ -17,6 +17,8 @@ spec:
       app: {{ .Release.Name }}
   template:
     metadata:
+      labels:
+        app: {{ .Release.Name }}      
       annotations:
         prometheus.io/scrape: "true"
     spec:

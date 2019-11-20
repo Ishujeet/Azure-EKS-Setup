@@ -12,3 +12,4 @@ ingress:
 
 environment:
   TEST: ok
+  PORT: "8080"
