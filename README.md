@@ -34,9 +34,13 @@ https://helm.sh/docs/intro/install/
    in our case above mentioned values should be :-
 
    ```FILE_PATH=nodejs-app/, DOCKER_IMAGE_NAME=nodejs-app, TAG=v1```
+   
    We can automate the build process using jenkins, a sample jenkinsfile is provided in repositroy, it can be modified            according to needs.
+
 5. To deploy node app in AKS specify the following values in https://github.com/Ishujeet/Azure-Test/blob/master/helm/nodejs-app/values.yaml
    * image_name = ${ACR_NAME}.azurecr.io/${DOCKER_IMAGE_NAME}
    * image_tag = ${TAG}
+
 6. Run ```helm install nodejs-app helm/nodejs-app```. Your app will be up and running in few min, check for ```kubectl get svc    --watch``` to get External IP of APP.
+
 7. APP is autoscalable as Horizontal Pod Autoscaler is also defined in helm chart.
