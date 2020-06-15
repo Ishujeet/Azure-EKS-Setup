@@ -1,6 +1,6 @@
 # Azure-EKS-Setup
 
-Basic Azure **EKS**, **Resource Group** and **ACR** setup with **terraform** and app delpoyment on it with **helm Charts**.
+Basic Azure **EKS**, **Resource Group** and **ACR** setup and app delpoyment on it with **helm Charts**.
 
 # Prerequisite
 
